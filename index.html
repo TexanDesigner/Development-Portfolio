@@ -5,11 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>UC Irvine Brand Guide</title>
   <style>
+     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');/* NEW CODE */
     body {
       display: flex;
-      font-family: Arial, sans-serif;
+      font-family: 'Montserrat', sans-serif;/* NEW CODE */
       margin: 0;
       padding: 0;
+    }
+    .headerContainer{/* NEW CODE */
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding:0 80px;
     }
     header {
       width: 100%;
@@ -97,7 +105,11 @@
 </head>
 <body>
   <header>
-    <h1>UC Irvine Brand Guide</h1>
+    <div class="headerContainer"><!-- NEW CODE -->
+      <p> </p>
+      <h1>Branding Usage Guide</h1>
+      <img src="logoWhite.png" alt="UCI LOGO" height="30px;">
+    </div>
   </header>
   <aside>
     <nav>
